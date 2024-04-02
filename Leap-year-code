@@ -1,0 +1,24 @@
+#include<stdio.h>
+
+int main() {
+
+
+    //This is a program to check weather if the given input year is or not.
+    int x;
+    printf("Enter a year:");
+    scanf("%d",&x);
+    if(x%400==0){
+        printf("%d is a leap year",x);
+    }
+    else if (x%100==0){
+        printf("%d is not a leap year",x);
+    }
+    else if (x%4==0){
+        printf("%d is a leap year",x);
+    }
+    else{
+        printf("%d is not an leap year",x);
+    }
+
+    return 0;
+}
