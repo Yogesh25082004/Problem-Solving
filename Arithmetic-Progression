@@ -1,0 +1,26 @@
+#include<stdio.h>
+
+int main() {
+// Inializing the variables.
+    int a1,a2,d,n,an;
+    printf("Enter a1: ");
+    scanf("%d",&a1);
+    printf("Enter a2: ");
+    scanf("%d",&a2);
+    printf("Enter nth value: ");
+    scanf("%d",&n);
+
+// Finding out the common difference.
+    d=a1-a2;
+// Finding the an number.
+    an = a1+(n-1)*d;
+    printf("an: %d\n",an);
+
+// For displaying the Ap
+    for(int i=4;i<=3*n-1;i=i+3){
+    printf("%d ",i);
+    }
+
+    return 0;
+}
+
