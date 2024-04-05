@@ -1,0 +1,17 @@
+#include<stdio.h>
+
+int main() {
+
+    int n;
+    printf("Enter a Number:");
+    scanf("%d",&n);
+    int c = 0;
+// Running the while loop for counting the number
+    while (n!=0) {
+        n = n/10;
+        c++;
+    }
+    printf("The no of digits are %d",c);
+
+    return 0;
+}
